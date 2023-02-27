@@ -120,3 +120,19 @@ button {
 .two-desc {
   text-align: center;
 }
+
+.four {
+  margin: 175px;
+  border-radius: 7px;
+}
+
+.four-cta {
+    padding: 20px;
+    display: flex;
+}
+
+.order {
+    border-radius: 7px;
+    border-color: white;
+    border-style: solid;
+}
