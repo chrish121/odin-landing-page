@@ -17,7 +17,7 @@
   padding: 50px 250px;
 }
 
-button, .four {
+button, .four-cta {
     background: #3882F6;
 }
 
@@ -121,18 +121,31 @@ button {
   text-align: center;
 }
 
-.four {
-  margin: 175px;
-  border-radius: 7px;
-}
-
 .four-cta {
-    padding: 20px;
+    padding: 40px 80px;
+    margin: 175px;
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
 }
 
 .order {
     border-radius: 7px;
     border-color: white;
     border-style: solid;
+    margin-left: auto;
+}
+
+.four-heading {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.four-description {
+    color: white;
 }
