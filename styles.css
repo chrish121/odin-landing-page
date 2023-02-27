@@ -40,6 +40,8 @@ button, .four {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .quote-text {
@@ -80,4 +82,29 @@ button {
     flex-basis: 0;
     width: fit-content;
     color: white;
+}
+
+.two {
+    padding: 25px 175px;
+}
+
+.products {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-image {
+  max-width: 300px;
+  max-height: 300px;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 7px;
+  border-color: #1F2937;
+}
+
+.two-desc {
+  text-align: center;
 }
