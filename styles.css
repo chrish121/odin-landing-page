@@ -14,7 +14,7 @@
 
 .three {
   background: #E5E7EB;
-  padding: 50px 250px;
+  padding: 100px 250px;
   display: flex;
   justify-content: center;
 }
@@ -46,7 +46,7 @@ button, .four-cta {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .quote-text {
@@ -106,7 +106,7 @@ button {
 }
 
 .two {
-    padding: 25px 175px;
+    padding: 50px 175px;
 }
 
 .products {
@@ -115,6 +115,7 @@ button {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-bottom: 75px;
 }
 
 .two-image {
@@ -132,7 +133,7 @@ button {
 
 .four-cta {
     padding: 40px 80px;
-    margin: 175px;
+    margin: 100px 175px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -161,4 +162,5 @@ button {
 
 .copyright {
     text-align: center;
+    padding: 20px;
 }
