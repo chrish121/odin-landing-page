@@ -87,7 +87,7 @@ button, .four {
     flex: 1 2 0;
 }
 
-button {
+.read-more {
     border-radius: 7px;
     padding: 10px 20px;
     border-style: none;
