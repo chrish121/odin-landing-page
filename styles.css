@@ -1,9 +1,11 @@
 * {
   font-family: Roboto, Verdana, sans-serif;
+  margin: 0;
 }
 
 .one, .footer {
   background: #1F2937;
+  padding: 15px 150px;
 }
 
 .two, .four {
@@ -14,7 +16,7 @@
   background: #E5E7EB;
 }
 
-.button, .four {
+button, .four {
     background: #3882F6;
 }
 
@@ -45,4 +47,37 @@
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+}
+
+.header, .hero, .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.header, .hero {
+    margin-bottom: 50px;
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 0;
+}
+
+.hero-image {
+    display: flex;
+    min-width: 300px;    
+    flex: 1 2 0;
+}
+
+button {
+    border-radius: 7px;
+    padding: 10px 20px;
+    border-style: none;
+    flex-basis: 0;
+    width: fit-content;
+    color: white;
 }
