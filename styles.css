@@ -37,6 +37,7 @@ button, .four-cta {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 .information-header {
@@ -61,16 +62,20 @@ button, .four-cta {
     text-align: right;
 }
 
-.header, .hero, .links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 70px;
-}
-
 .header, .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
     margin-bottom: 50px;
     flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-left: auto;
 }
 
 .hero {
